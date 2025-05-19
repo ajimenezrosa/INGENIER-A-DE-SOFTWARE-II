@@ -61,22 +61,61 @@ El desarrollo moderno no se hace de forma aislada. Se requiere colaboración y c
 ---
 
 ## Evaluación del Capítulo: 15 Preguntas Tipo Test
+# Ingeniería de Software II  
+**Profesor:** José Alejandro Jiménez Rosa  
+**Universidad Católica Santo Domingo**  
+**Cuatrimestre:** Mayo - Agosto 2025  
 
-1. ¿Cuál metodología se basa en la entrega incremental y continua de software?
-2. ¿Qué herramienta se usa comúnmente para integración continua?
-3. ¿Cuál es un principio de SOLID?
-4. "Clean Code" significa:
-5. ¿Cuál no es un rol técnico dentro de un equipo de desarrollo?
-6. ¿Cuál es la diferencia principal entre Waterfall y Agile?
-7. ¿Qué herramienta permite versionar y colaborar en código?
-8. ¿Qué permite un pipeline CI/CD?
-9. DevOps busca:
-10. ¿Cuál no es parte del ciclo de vida del software?
-11. ¿Quién gestiona la planificación del sprint?
-12. ¿Qué caracteriza al principio de abierto/cerrado?
-13. ¿Qué significa que un software sea mantenible?
-14. ¿Qué es Jira?
-15. ¿Qué es una "user story" en Scrum?
+## Unidad 1: Introducción a la Ingeniería de Software Avanzada  
+### Evaluación del Capítulo – Respuestas
+
+---
+
+**1. ¿Cuál metodología se basa en la entrega incremental y continua de software?**  
+✅ **Respuesta:** Ágil  
+💡 *Ágil promueve entregas frecuentes e incrementales, fomentando la retroalimentación y la mejora continua.*
+
+---
+
+**2. ¿Qué herramienta se usa comúnmente para integración continua?**  
+✅ **Respuesta:** Jenkins  
+💡 *Jenkins permite implementar pipelines CI/CD para automatizar pruebas e implementaciones.*
+
+---
+
+✅ **Respuesta:** Jenkins  
+**3. ¿Cuál es un principio de SOLID?**  
+✅ **Respuesta:** Principio de Responsabilidad Única (SRP)  
+💡 *Establece que una clase debe tener una sola razón para cambiar.*
+
+---
+
+**4. "Clean Code" significa:**  
+✅ **Respuesta:** Código legible, mantenible y basado en buenas prácticas  
+💡 *Facilita la comprensión y el mantenimiento del código.*
+
+---
+
+**5. ¿Cuál no es un rol técnico dentro de un equipo de desarrollo?**  
+✅ **Respuesta:** Cliente  
+💡 *El cliente aporta requisitos, pero no participa directamente en el desarrollo técnico.*
+
+---
+
+**6. ¿Cuál es la diferencia principal entre Waterfall y Agile?**  
+✅ **Respuesta:** Waterfall es secuencial; Agile es iterativo y flexible  
+💡 *Agile permite adaptarse al cambio; Waterfall no.*
+
+---
+
+**7. ¿Qué herramienta permite versionar y colaborar en código?**  
+✅ **Respuesta:** Git  
+💡 *Git gestiona versiones y permite colaboración distribuida en proyectos de software.*
+
+---
+
+**8. ¿Qué permite un pipeline CI/CD?**  
+✅ **Respuesta:** Automatizar
 
 ---
 
