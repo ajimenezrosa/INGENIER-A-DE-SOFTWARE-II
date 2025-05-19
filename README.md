@@ -83,7 +83,6 @@ El desarrollo moderno no se hace de forma aislada. Se requiere colaboración y c
 
 ---
 
-✅ **Respuesta:** Jenkins  
 **3. ¿Cuál es un principio de SOLID?**  
 ✅ **Respuesta:** Principio de Responsabilidad Única (SRP)  
 💡 *Establece que una clase debe tener una sola razón para cambiar.*
