@@ -70,7 +70,6 @@ El desarrollo moderno no se hace de forma aislada. Se requiere colaboración y c
 ### Evaluación del Capítulo – Respuestas
 
 ---
-
 **1. ¿Cuál metodología se basa en la entrega incremental y continua de software?**  
 ✅ **Respuesta:** Ágil  
 💡 *Ágil promueve entregas frecuentes e incrementales, fomentando la retroalimentación y la mejora continua.*
@@ -114,7 +113,50 @@ El desarrollo moderno no se hace de forma aislada. Se requiere colaboración y c
 ---
 
 **8. ¿Qué permite un pipeline CI/CD?**  
-✅ **Respuesta:** Automatizar
+✅ **Respuesta:** Automatizar pruebas e implementación continua de software  
+💡 *Optimiza el flujo de desarrollo desde el código hasta producción.*
+
+---
+
+**9. DevOps busca:**  
+✅ **Respuesta:** Integrar desarrollo y operaciones mediante automatización y colaboración  
+💡 *Promueve entregas rápidas y confiables.*
+
+---
+
+**10. ¿Cuál no es parte del ciclo de vida del software?**  
+✅ **Respuesta:** Facturación  
+💡 *La facturación no forma parte directa del ciclo de vida del software.*
+
+---
+
+**11. ¿Quién gestiona la planificación del sprint?**  
+✅ **Respuesta:** Scrum Master junto al equipo y el Product Owner  
+💡 *Scrum fomenta la planificación colaborativa.*
+
+---
+
+**12. ¿Qué caracteriza al principio de abierto/cerrado?**  
+✅ **Respuesta:** Las clases deben estar abiertas a extensión pero cerradas a modificación  
+💡 *Esto permite extender funcionalidades sin alterar el código base.*
+
+---
+
+**13. ¿Qué significa que un software sea mantenible?**  
+✅ **Respuesta:** Puede modificarse fácilmente sin introducir errores  
+💡 *La mantenibilidad es esencial para la evolución del software.*
+
+---
+
+**14. ¿Qué es Jira?**  
+✅ **Respuesta:** Una herramienta para la gestión de proyectos y seguimiento de tareas  
+💡 *Jira permite organizar y planificar el trabajo en metodologías ágiles.*
+
+---
+
+**15. ¿Qué es una "user story" en Scrum?**  
+✅ **Respuesta:** Una descripción breve de una funcionalidad desde la perspectiva del usuario  
+💡 *Ayuda a enfocarse en el valor que se entrega al cliente.*
 
 ---
 
