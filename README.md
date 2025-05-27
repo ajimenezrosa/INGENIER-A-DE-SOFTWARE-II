@@ -9,9 +9,72 @@
 - [UNIDAD 1: INTRODUCCIÓN A LA INGENIERÍA DE SOFTWARE AVANZADA](#unidad1)
 - [UNIDAD 2: ARQUITECTURA DE SOFTWARE Y ESTILOS ARQUITECTÓNICOS MODERNOS](#unidad2)
 
+<!-- ✍️ Unidades propuestas a desarrollar:
+✅ Unidad 3: Diseño de Software y Patrones de Diseño
+Principios de diseño modular
+
+UML: Diagramas esenciales (casos de uso, clases, secuencia)
+
+Patrones de diseño (GOF): Singleton, Factory, Observer, etc.
+
+Buenas prácticas de diseño
+
+Evaluación de diseño
+
+✅ Unidad 4: Pruebas de Software y Automatización
+Tipos de pruebas: unidad, integración, sistema, aceptación
+
+Test-Driven Development (TDD)
+
+Herramientas: JUnit, Selenium, Postman
+
+Automatización de pruebas
+
+✅ Unidad 5: Integración Continua y Entrega Continua (CI/CD)
+Fundamentos y beneficios
+
+Jenkins, GitHub Actions
+
+Pipeline típico: build, test, deploy
+
+Práctica: configurar un flujo CI/CD básico
+
+✅ Unidad 6: Gestión de Proyectos con Scrum y Kanban
+Roles: Product Owner, Scrum Master, Developers
+
+Ceremonias: Sprint Planning, Daily, Review, Retrospective
+
+Artefactos: Product Backlog, Sprint Backlog, Burndown Chart
+
+Kanban vs Scrum
+
+Herramientas: Jira, Trello
+
+✅ Unidad 7: Seguridad en el Desarrollo de Software (Secure SDLC)
+OWASP Top 10
+
+Autenticación y autorización
+
+Validación de entrada
+
+Pruebas de seguridad
+
+Integración de seguridad en DevOps (DevSecOps)
+
+✅ Unidad 8: Mantenimiento de Software y Calidad Técnica
+Tipos de mantenimiento
+
+Refactorización
+
+Métricas de calidad
+
+Control de versiones y documentación
+ -->
+
+
 ---
 
-## UNIDAD 1: INTRODUCCIÓN A LA INGENIERÍA DE SOFTWARE AVANZADA<a name="unidad1>"</a>
+## UNIDAD 1: INTRODUCCIÓN A LA INGENIERÍA DE SOFTWARE AVANZADA<a name="unidad1"></a>
 
 ### Objetivos de la unidad:
 
@@ -255,7 +318,7 @@ La **arquitectura de software** es la estructura fundamental de un sistema, repr
 
 
 
-## Evaluación del Capítulo: 15 Preguntas Tipo Test
+## Evaluación del Capítulo: 2 Preguntas Tipo Test
 1. **¿Cuál es el principal objetivo de la arquitectura de software?**  
 <!-- ✅ **Respuesta:** Organizar los componentes y decisiones estructurales del sistema.  
 💡 *Define cómo el sistema es construido y evolucionado.* -->
@@ -327,8 +390,272 @@ La **arquitectura de software** es la estructura fundamental de un sistema, repr
 - [What is Serverless? - Serverless Blog](https://www.serverless.com/blog/what-is-serverless)
 
 ---
-
-
-
 # 
+
+
+### INGENIERÍA DE SOFTWARE II
+
+**Profesor:** José Alejandro Jiménez Rosa  
+**Universidad Católica Santo Domingo**  
+**Cuatrimestre:** Mayo - Agosto 2025
+
+---
+
+## UNIDAD 3: DISEÑO DE SOFTWARE Y PATRONES DE DISEÑO
+
+### Objetivos de la unidad:
+
+- Comprender los principios del diseño modular y reutilizable.
+- Aplicar diagramas de UML para modelar software.
+- Identificar y aplicar patrones de diseño comunes.
+- Evaluar la calidad de un diseño software.
+
+---
+
+### 3.1 Principios de diseño de software
+
+El diseño de software es la etapa en la que se define cómo se organizará internamente el sistema, guiado por principios que permiten lograr soluciones eficientes y mantenibles. Algunos principios clave:
+
+- **Modularidad:** Dividir el sistema en componentes independientes.
+- **Abstracción:** Ocultar detalles internos y mostrar solo lo necesario.
+- **Cohesión:** Que cada módulo tenga una única responsabilidad clara.
+- **Acomplamiento:** Minimizar la dependencia entre módulos.
+
+> Un buen diseño permite cambios locales sin afectar todo el sistema.
+
+---
+
+### 3.2 Diagramas UML
+
+**UML (Lenguaje Unificado de Modelado)** permite representar visualmente la estructura y comportamiento del sistema. Diagramas comunes:
+
+- **Caso de Uso:** Describe funcionalidades desde la perspectiva del usuario.
+- **Clases:** Muestra atributos, métodos y relaciones entre clases.
+- **Secuencia:** Representa la interacción entre objetos en el tiempo.
+
+> Ejemplo: Un sistema bancario puede tener casos de uso como "Transferir dinero" y "Consultar saldo".
+
+---
+
+### 3.3 Origen de los patrones de diseño
+
+Los patrones de diseño fueron popularizados por el libro *Design Patterns: Elements of Reusable Object-Oriented Software* publicado en 1994 por el llamado *Gang of Four* (Erich Gamma, Richard Helm, Ralph Johnson y John Vlissides). Inspirados en la arquitectura de edificios (Alexander, 1977), los patrones de diseño se basan en la idea de capturar soluciones probadas y efectivas que puedan reutilizarse en diferentes contextos.
+
+Al igual que en la arquitectura civil existen soluciones estandarizadas para puertas, ventanas o escaleras, en el software se identificaron patrones recurrentes que resuelven problemas de comunicación entre objetos, creación de instancias o estructura de clases.
+
+---
+
+### 3.4 Patrones de diseño (GOF) y su aplicación
+
+Los patrones GOF están organizados en tres categorías:
+
+#### 1. Creacionales (gestión de instancias de objetos)
+
+- **Singleton:** Asegura que una clase tenga una sola instancia. Muy usado para clases de configuración, logging o acceso a recursos compartidos.
+- **Factory Method:** Permite delegar la creación de objetos a subclases. Se aplica cuando no se conoce la clase exacta del objeto hasta tiempo de ejecución.
+- **Abstract Factory:** Proporciona una interfaz para crear familias de objetos relacionados.
+- **Builder:** Separa la construcción compleja de objetos paso a paso.
+- **Prototype:** Permite copiar objetos existentes sin depender de su clase exacta.
+
+#### 2. Estructurales (organizan relaciones entre clases)
+
+- **Adapter:** Permite que dos interfaces incompatibles trabajen juntas.
+- **Composite:** Representa jerarquías de objetos (como árboles) donde los elementos individuales y compuestos son tratados de forma uniforme.
+- **Proxy:** Controla el acceso a un objeto mediante un intermediario.
+- **Decorator:** Agrega funcionalidades a un objeto en tiempo de ejecución sin modificar su clase original.
+- **Facade:** Proporciona una interfaz simplificada a un conjunto de subsistemas.
+
+#### 3. De comportamiento (controlan el flujo de la comunicación)
+
+- **Observer:** Permite que objetos suscriptores reciban notificaciones automáticas ante cambios de otro objeto.
+- **Strategy:** Permite cambiar el algoritmo usado por un objeto sin modificarlo.
+- **Command:** Encapsula una petición como un objeto.
+- **State:** Permite que un objeto cambie su comportamiento cuando cambia su estado interno.
+- **Template Method:** Define la estructura de un algoritmo dejando algunos pasos a las subclases.
+
+> Ejemplo: El patrón Observer se usa en interfaces gráficas donde un cambio de estado (como seleccionar un elemento) notifica a múltiples componentes (como etiquetas, menús, paneles).
+
+---
+
+### 3.5 Impacto de los patrones de diseño en la industria
+
+Los patrones han transformado la forma en que los desarrolladores resuelven problemas:
+
+- Fomentan la **reutilización** de soluciones efectivas.
+- Promueven la **comunicación clara** entre equipos al usar un vocabulario compartido.
+- Mejoran la **mantenibilidad** al reducir el acoplamiento entre componentes.
+- Se han integrado en herramientas, marcos de trabajo y arquitecturas modernas.
+
+En entrevistas técnicas, se evalúa frecuentemente el conocimiento de patrones como parte de las habilidades de diseño profesional.
+
+---
+
+### 3.6 Buenas prácticas de diseño
+
+- Usar nombres claros y coherentes.
+- Seguir los principios SOLID.
+- Evitar la duplicación de código.
+- Diseñar primero la interfaz y luego la implementación.
+- Documentar las decisiones de diseño.
+- Aplicar patrones solo cuando aportan claridad y no complejidad innecesaria.
+
+---
+
+### 3.7 Evaluación del diseño software
+
+Para evaluar la calidad de un diseño se consideran:
+
+- **Claridad:** ¿Se entiende fácilmente?
+- **Flexibilidad:** ¿Permite cambios futuros sin mucho esfuerzo?
+- **Reutilización:** ¿Se pueden usar partes del diseño en otros proyectos?
+- **Cumplimiento de requisitos:** ¿El diseño responde a las necesidades del usuario?
+
+> Un diseño bien estructurado es clave para el éxito a largo plazo del software.
+
+---
+
+## Evaluación del Capítulo: 15 Preguntas Tipo Test
+
+1. ¿Qué principio busca dividir el sistema en partes independientes?  
+2. Un ejemplo de acoplamiento bajo es:  
+3. El diagrama UML que representa la interacción entre objetos es:  
+4. El patrón Singleton se usa para:  
+5. La modularidad ayuda a:  
+6. El patrón Observer sirve para:  
+7. El patrón Adapter se clasifica como:  
+8. Un buen diseño debe tener:  
+9. El principio de Cohesión implica:  
+10. El diagrama de clases muestra:  
+11. El patrón Strategy permite:  
+12. Factory Method es un patrón de tipo:  
+13. La evaluación del diseño debe verificar:  
+14. Un beneficio de los patrones de diseño es:  
+15. Diseñar primero la interfaz ayuda a:
+
+---
+<!-- 
+## ✅ Evaluación del Capítulo: 15 Preguntas Tipo Test con Justificación
+
+1. **¿Qué principio busca dividir el sistema en partes independientes?**  
+   - A) Acoplamiento  
+   - B) Herencia  
+   - ✅ C) Modularidad  
+   - D) Encapsulamiento  
+   **Justificación:** La modularidad permite dividir un sistema en partes independientes, facilitando su mantenimiento, escalabilidad y reutilización.
+
+2. **Un ejemplo de acoplamiento bajo es:**  
+   - A) Una clase que usa directamente otra clase concreta  
+   - ✅ B) Una clase que depende de una interfaz  
+   - C) Dos clases que comparten variables globales  
+   - D) Una clase que hereda de múltiples clases  
+   **Justificación:** Acoplamiento bajo se logra cuando una clase depende de abstracciones (interfaces), lo que la hace menos dependiente de implementaciones concretas.
+
+3. **El diagrama UML que representa la interacción entre objetos es:**  
+   - A) Diagrama de clases  
+   - ✅ B) Diagrama de secuencia  
+   - C) Diagrama de casos de uso  
+   - D) Diagrama de paquetes  
+   **Justificación:** El diagrama de secuencia muestra cómo los objetos interactúan en el tiempo, representando el flujo de mensajes entre ellos.
+
+4. **El patrón Singleton se usa para:**  
+   - A) Crear muchas instancias de una clase  
+   - ✅ B) Garantizar que solo exista una instancia  
+   - C) Heredar de múltiples clases  
+   - D) Agregar interfaces en tiempo de ejecución  
+   **Justificación:** Singleton restringe la creación de objetos a una sola instancia, útil para configuraciones, logging y acceso global controlado.
+
+5. **La modularidad ayuda a:**  
+   - A) Hacer el sistema más lento  
+   - B) Duplicar código  
+   - ✅ C) Separar responsabilidades  
+   - D) Aumentar el acoplamiento  
+   **Justificación:** La modularidad organiza el sistema en unidades con funciones específicas, facilitando el mantenimiento y la evolución del software.
+
+6. **El patrón Observer sirve para:**  
+   - A) Ejecutar algoritmos en paralelo  
+   - ✅ B) Notificar múltiples objetos sobre un cambio  
+   - C) Convertir interfaces incompatibles  
+   - D) Asegurar la herencia múltiple  
+   **Justificación:** Observer permite la suscripción de múltiples objetos a eventos generados por otro objeto (el sujeto), promoviendo la desacoplación.
+
+7. **El patrón Adapter se clasifica como:**  
+   - A) Creacional  
+   - ✅ B) Estructural  
+   - C) De comportamiento  
+   - D) De control  
+   **Justificación:** Adapter adapta una interfaz a otra para permitir compatibilidad entre clases, siendo un patrón que estructura cómo interactúan las clases.
+
+8. **Un buen diseño debe tener:**  
+   - A) Muchas dependencias  
+   - ✅ B) Bajo acoplamiento y alta cohesión  
+   - C) Código duplicado para seguridad  
+   - D) Todas las clases en un solo archivo  
+   **Justificación:** Un diseño sólido busca mantener las clases independientes entre sí (bajo acoplamiento) y enfocadas en tareas específicas (alta cohesión).
+
+9. **El principio de Cohesión implica:**  
+   - A) Que una clase tenga muchas funciones sin relación  
+   - ✅ B) Que una clase tenga una responsabilidad clara  
+   - C) Que una clase dependa de muchas otras  
+   - D) Que una clase use variables globales  
+   **Justificación:** La cohesión mide qué tan relacionadas están las tareas de una clase. Alta cohesión implica claridad y propósito único.
+
+10. **El diagrama de clases muestra:**  
+    - A) Reglas de negocio  
+    - B) Código fuente  
+    - ✅ C) Atributos, métodos y relaciones  
+    - D) Interacciones temporales  
+    **Justificación:** El diagrama de clases representa la estructura estática del sistema: qué atributos y métodos tiene cada clase y cómo se relacionan.
+
+11. **El patrón Strategy permite:**  
+    - ✅ A) Cambiar el algoritmo sin modificar la clase  
+    - B) Crear árboles de objetos  
+    - C) Heredar de varias estrategias  
+    - D) Eliminar interfaces  
+    **Justificación:** Strategy encapsula algoritmos intercambiables dentro de objetos, facilitando la selección del comportamiento en tiempo de ejecución.
+
+12. **Factory Method es un patrón de tipo:**  
+    - A) Estructural  
+    - ✅ B) Creacional  
+    - C) De comportamiento  
+    - D) De flujo  
+    **Justificación:** Factory Method es un patrón creacional porque define cómo instanciar objetos sin especificar su clase concreta.
+
+13. **La evaluación del diseño debe verificar:**  
+    - A) Velocidad del servidor  
+    - ✅ B) Claridad, flexibilidad y reutilización  
+    - C) Tiempos de compilación  
+    - D) Cantidad de líneas de código  
+    **Justificación:** Evaluar un diseño implica revisar si es claro para otros desarrolladores, flexible a cambios y si sus componentes se pueden reutilizar.
+
+14. **Un beneficio de los patrones de diseño es:**  
+    - A) Obligar a usar programación funcional  
+    - B) Reducir la velocidad del sistema  
+    - ✅ C) Reutilizar soluciones comprobadas  
+    - D) Aumentar la complejidad del diseño  
+    **Justificación:** Los patrones son soluciones genéricas a problemas comunes. Reutilizarlos ahorra tiempo y reduce errores al aplicar buenas prácticas.
+
+15. **Diseñar primero la interfaz ayuda a:**  
+    - A) Olvidar los detalles internos  
+    - B) Empezar a codificar más rápido  
+    - ✅ C) Separar lo que hace un módulo de cómo lo hace  
+    - D) Repetir código innecesario  
+    **Justificación:** Al diseñar primero la interfaz (contrato), se define el comportamiento esperado sin comprometerse con una implementación específica.
+
+ -->
+
+## Lecturas y Recursos Sugeridos
+
+- *Design Patterns: Elements of Reusable Object-Oriented Software* (Gamma, Helm, Johnson, Vlissides)  
+- Documentación UML: [https://www.uml-diagrams.org/](https://www.uml-diagrams.org/)  
+- Catálogo de patrones de diseño: [https://refactoring.guru/](https://refactoring.guru/)  
+- Video: "Patrones de Diseño explicados" (YouTube)  
+- Curso recomendado: "Design Patterns in Java" en Udemy o Coursera
+
+---
+
+**Fin de la Unidad 3**
+
+
+
+
 # 
