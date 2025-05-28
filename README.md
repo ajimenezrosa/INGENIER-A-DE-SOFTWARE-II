@@ -533,7 +533,7 @@ Para evaluar la calidad de un diseño se consideran:
 15. Diseñar primero la interfaz ayuda a:
 
 ---
-<!-- 
+ 
 ## ✅ Evaluación del Capítulo: 15 Preguntas Tipo Test con Justificación
 
 1. **¿Qué principio busca dividir el sistema en partes independientes?**  
@@ -641,7 +641,7 @@ Para evaluar la calidad de un diseño se consideran:
     - D) Repetir código innecesario  
     **Justificación:** Al diseñar primero la interfaz (contrato), se define el comportamiento esperado sin comprometerse con una implementación específica.
 
- -->
+
 
 ## Lecturas y Recursos Sugeridos
 
