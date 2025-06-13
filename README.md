@@ -8,6 +8,7 @@
 
 - [UNIDAD 1: INTRODUCCIÓN A LA INGENIERÍA DE SOFTWARE AVANZADA](#unidad1)
 - [UNIDAD 2: ARQUITECTURA DE SOFTWARE Y ESTILOS ARQUITECTÓNICOS MODERNOS](#unidad2)
+- [UNIDAD 3: DISEÑO DE SOFTWARE Y PRINCIPIOS DE BUENAS PRÁCTICAS](#unidad3)
 
 <!-- ✍️ Unidades propuestas a desarrollar:
 ✅ Unidad 3: Diseño de Software y Patrones de Diseño
@@ -652,6 +653,146 @@ Para evaluar la calidad de un diseño se consideran:
 - Curso recomendado: "Design Patterns in Java" en Udemy o Coursera
 
 ---
+
+# UNIDAD 3: DISEÑO DE SOFTWARE Y PRINCIPIOS DE BUENAS PRÁCTICAS<a name="unidad3"></a>
+
+## 3.1 Introducción al Diseño de Software
+
+El diseño de software es una etapa clave del proceso de desarrollo, en la cual se definen las estructuras, componentes y patrones que darán forma a la solución final. Esta fase se basa en los requisitos previamente recopilados y busca garantizar que el software sea eficiente, mantenible, reutilizable y escalable.
+
+El diseño actúa como un puente entre el análisis de requisitos y la codificación, permitiendo visualizar la solución en abstracto antes de escribir código. Además, facilita la comunicación entre los miembros del equipo y promueve la calidad desde las primeras etapas del desarrollo.
+
+## 3.2 Objetivos del Diseño de Software
+
+- Traducir los requisitos en representaciones técnicas comprensibles.
+- Establecer la estructura global del sistema.
+- Promover la reutilización mediante patrones y componentes modulares.
+- Minimizar la complejidad del sistema.
+- Mejorar la mantenibilidad y escalabilidad del producto final.
+
+## 3.3 Principios de Buen Diseño
+
+### 3.3.1 Modularidad
+
+Dividir el sistema en módulos o componentes independientes permite un desarrollo más organizado, pruebas más sencillas y mayor facilidad para realizar cambios o añadir nuevas funcionalidades.
+
+### 3.3.2 Abstracción
+
+Consiste en ocultar los detalles de implementación y mostrar solo lo necesario para el uso del componente o módulo. Esto facilita la comprensión y el mantenimiento del software.
+
+### 3.3.3 Acoplamiento y Cohesión
+
+- **Acoplamiento**: mide el grado de dependencia entre módulos. Se busca un **bajo acoplamiento**, donde los módulos se relacionen lo mínimo posible.
+- **Cohesión**: mide el grado en que los elementos dentro de un módulo están relacionados entre sí. Se busca una **alta cohesión**, lo que indica que el módulo realiza una única tarea bien definida.
+
+### 3.3.4 Separación de Responsabilidades
+
+Cada componente debe tener una única responsabilidad bien definida. Este principio evita que un módulo realice tareas múltiples y facilita su comprensión y mantenimiento.
+
+### 3.3.5 Principio de Abierto/Cerrado (Open/Closed)
+
+Los módulos deben estar **abiertos para extensión** pero **cerrados para modificación**, permitiendo agregar nuevas funcionalidades sin cambiar el código existente.
+
+## 3.4 Patrones de Diseño
+
+Los patrones de diseño son soluciones probadas a problemas comunes en el desarrollo de software. Se clasifican principalmente en:
+
+- **Patrones Creacionales**: controlan la creación de objetos (por ejemplo: Singleton, Factory Method).
+- **Patrones Estructurales**: organizan clases y objetos (por ejemplo: Adapter, Decorator).
+- **Patrones de Comportamiento**: definen la comunicación entre objetos (por ejemplo: Observer, Strategy).
+
+Estos patrones mejoran la reutilización, flexibilidad y comprensión del código.
+
+## 3.5 Herramientas y Modelos UML para el Diseño
+
+El diseño se apoya en modelos y herramientas visuales como UML (Lenguaje Unificado de Modelado), que permiten representar diferentes aspectos del sistema:
+
+- **Diagrama de clases**: estructura estática de las clases y sus relaciones.
+- **Diagrama de secuencia**: interacción entre objetos a lo largo del tiempo.
+- **Diagrama de componentes**: organización y dependencias de los módulos del sistema.
+- **Diagrama de paquetes**: organización lógica del sistema en grupos de clases.
+
+## 3.6 Evaluación del Diseño
+
+Un buen diseño se evalúa considerando:
+
+- Claridad y simplicidad.
+- Cumplimiento de principios de diseño.
+- Facilidad de mantenimiento y extensión.
+- Uso adecuado de patrones y buenas prácticas.
+- Documentación clara y comprensible.
+
+## 3.7 Conclusión
+
+El diseño de software es una disciplina que requiere conocimientos técnicos, visión sistémica y capacidad de abstracción. Aplicar principios de buen diseño y patrones reconocidos es fundamental para construir sistemas robustos, escalables y fáciles de mantener. Un diseño bien realizado es clave para el éxito a largo plazo del proyecto.
+
+---
+
+## Evaluación del Capítulo 3: 15 Preguntas Tipo Test
+
+1. ¿Cuál es el objetivo principal del diseño de software?  
+   ✅ **a) Traducir los requisitos en soluciones técnicas mantenibles**  
+   💡 *El diseño busca convertir requisitos en una estructura organizada y comprensible para ser implementada eficientemente.*
+
+2. ¿Qué principio busca dividir el sistema en partes pequeñas y manejables?  
+   ✅ **b) Modularidad**  
+   💡 *La modularidad permite crear componentes independientes y reutilizables.*
+
+3. Un sistema con alto acoplamiento:  
+   ✅ **c) Tiene componentes fuertemente dependientes entre sí**  
+   💡 *El alto acoplamiento indica que los módulos están estrechamente vinculados, lo que dificulta el mantenimiento.*
+
+4. La cohesión se refiere a:  
+   ✅ **b) El grado en que los elementos dentro de un módulo están relacionados**  
+   💡 *Una alta cohesión indica que un módulo tiene una única responsabilidad bien definida.*
+
+5. ¿Qué principio se basa en ocultar detalles de implementación?  
+   ✅ **a) Abstracción**  
+   💡 *La abstracción se enfoca en mostrar solo lo esencial, ocultando lo complejo.*
+
+6. ¿Qué representa un diagrama de clases en UML?  
+   ✅ **a) Estructura estática del sistema y relaciones entre clases**  
+   💡 *Los diagramas de clase son fundamentales para mostrar la arquitectura orientada a objetos.*
+
+7. ¿Qué patrón pertenece a los patrones creacionales?  
+   ✅ **a) Singleton**  
+   💡 *Singleton controla la creación de una única instancia de una clase.*
+
+8. ¿Cuál de los siguientes es un patrón estructural?  
+   ✅ **b) Adapter**  
+   💡 *Adapter permite que interfaces incompatibles trabajen juntas.*
+
+9. ¿Cuál patrón es de comportamiento?  
+   ✅ **c) Observer**  
+   💡 *Observer define una dependencia uno a muchos entre objetos.*
+
+10. ¿Qué principio indica que los módulos deben poder extenderse sin modificarse?  
+    ✅ **b) Principio Abierto/Cerrado**  
+    💡 *Este principio fomenta la extensión del comportamiento sin alterar el código fuente existente.*
+
+11. ¿Qué herramienta se utiliza para representar la interacción entre objetos a lo largo del tiempo?  
+    ✅ **a) Diagrama de secuencia**  
+    💡 *Los diagramas de secuencia muestran el orden y flujo de mensajes entre objetos.*
+
+12. ¿Qué patrón permite encapsular algoritmos en clases independientes?  
+    ✅ **b) Strategy**  
+    💡 *Strategy define una familia de algoritmos y los hace intercambiables.*
+
+13. ¿Qué modelo UML muestra cómo se organizan y agrupan los componentes lógicamente?  
+    ✅ **b) Diagrama de paquetes**  
+    💡 *El diagrama de paquetes agrupa clases o componentes con funcionalidades comunes.*
+
+14. ¿Cuál es una ventaja de aplicar patrones de diseño?  
+    ✅ **a) Promueven soluciones reutilizables y probadas**  
+    💡 *Los patrones ayudan a resolver problemas comunes de forma eficiente y estructurada.*
+
+15. Diseñar primero la interfaz permite:  
+    ✅ **b) Definir claramente los contratos entre módulos**  
+    💡 *Una interfaz bien definida permite a los desarrolladores trabajar en paralelo y cumplir con especificaciones sin conocer la implementación.*
+
+
+
+
 
 **Fin de la Unidad 3**
 
