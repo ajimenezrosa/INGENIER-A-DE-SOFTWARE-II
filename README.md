@@ -791,6 +791,127 @@ El diseño de software es una disciplina que requiere conocimientos técnicos, v
     💡 *Una interfaz bien definida permite a los desarrolladores trabajar en paralelo y cumplir con especificaciones sin conocer la implementación.*
 
 
+## Evaluación del Capítulo 3: Selección Múltiple con Respuestas y Justificación
+
+1. ¿Cuál es el objetivo principal del diseño de software?  
+a) Traducir los requisitos en soluciones técnicas mantenibles  
+b) Realizar pruebas unitarias  
+c) Programar funcionalidades  
+d) Crear bases de datos  
+<!-- ✅ **Respuesta correcta: a**  
+💡 *El diseño de software convierte los requisitos funcionales y no funcionales en una estructura técnica lógica y sostenible que guiará el proceso de implementación.* -->
+
+2. ¿Qué principio busca dividir el sistema en partes pequeñas y manejables?  
+a) Acoplamiento  
+b) Modularidad  
+c) Abstracción  
+d) Herencia  
+<!-- ✅ **Respuesta correcta: b**  
+💡 *La modularidad permite organizar el sistema en módulos independientes que facilitan el desarrollo, mantenimiento y pruebas.* -->
+
+3. Un sistema con alto acoplamiento:  
+a) Tiene módulos bien separados  
+b) Presenta bajo nivel de dependencia  
+c) Tiene componentes fuertemente dependientes entre sí  
+d) Es más fácil de mantener  
+<!-- ✅ **Respuesta correcta: c**  
+💡 *El alto acoplamiento indica fuerte dependencia entre módulos, lo cual dificulta su mantenimiento y escalabilidad.* -->
+
+4. La cohesión se refiere a:  
+a) La dependencia entre módulos  
+b) El grado en que los elementos dentro de un módulo están relacionados  
+c) La relación entre clases  
+d) La complejidad del código  
+<!-- ✅ **Respuesta correcta: b**  
+💡 *Alta cohesión implica que un módulo tiene una responsabilidad bien definida y enfocada, lo que mejora su calidad y reusabilidad.* -->
+
+5. ¿Qué principio se basa en ocultar detalles de implementación?  
+a) Abstracción  
+b) Encapsulamiento  
+c) Modularidad  
+d) Polimorfismo  
+<!-- ✅ **Respuesta correcta: a**  
+💡 *La abstracción expone solo los aspectos esenciales de un módulo, ocultando detalles internos que no son relevantes para su uso.* -->
+
+6. ¿Qué representa un diagrama de clases en UML?  
+a) Estructura estática del sistema y relaciones entre clases  
+b) Flujo de ejecución  
+c) Casos de uso  
+d) Interacción temporal  
+<!-- ✅ **Respuesta correcta: a**  
+💡 *El diagrama de clases muestra atributos, métodos y relaciones estáticas entre las clases del sistema.* -->
+
+7. ¿Qué patrón pertenece a los patrones creacionales?  
+a) Singleton  
+b) Adapter  
+c) Observer  
+d) Strategy  
+<!-- ✅ **Respuesta correcta: a**  
+💡 *Singleton asegura que una clase tenga solo una instancia y proporciona un punto de acceso global a ella.* -->
+
+8. ¿Cuál de los siguientes es un patrón estructural?  
+a) Observer  
+b) Adapter  
+c) Factory Method  
+d) Strategy  
+<!-- ✅ **Respuesta correcta: b**  
+💡 *Adapter permite que clases con interfaces incompatibles trabajen juntas adaptando su interfaz.* -->
+
+9. ¿Cuál patrón es de comportamiento?  
+a) Decorator  
+b) Builder  
+c) Observer  
+d) Abstract Factory  
+<!-- ✅ **Respuesta correcta: c**  
+💡 *Observer define una relación de dependencia entre objetos para que cuando uno cambie, los demás sean notificados automáticamente.* -->
+
+10. ¿Qué principio indica que los módulos deben poder extenderse sin modificarse?  
+a) Principio de Responsabilidad Única  
+b) Principio Abierto/Cerrado  
+c) Principio de Sustitución de Liskov  
+d) Principio de Inversión de Dependencia  
+<!-- ✅ **Respuesta correcta: b**  
+💡 *El principio abierto/cerrado promueve la extensión de funcionalidades mediante herencia o composición, sin alterar el código existente.* -->
+
+11. ¿Qué herramienta se utiliza para representar la interacción entre objetos a lo largo del tiempo?  
+a) Diagrama de secuencia  
+b) Diagrama de clases  
+c) Diagrama de paquetes  
+d) Diagrama de estados  
+<!-- ✅ **Respuesta correcta: a**  
+💡 *El diagrama de secuencia muestra cómo los objetos interactúan enviándose mensajes en un orden cronológico.* -->
+
+12. ¿Qué patrón permite encapsular algoritmos en clases independientes?  
+a) Observer  
+b) Strategy  
+c) Factory Method  
+d) Command  
+<!-- ✅ **Respuesta correcta: b**  
+💡 *Strategy permite definir una familia de algoritmos, encapsularlos y hacerlos intercambiables entre sí.* -->
+
+13. ¿Qué modelo UML muestra cómo se organizan y agrupan los componentes lógicamente?  
+a) Diagrama de clases  
+b) Diagrama de paquetes  
+c) Diagrama de componentes  
+d) Diagrama de casos de uso  
+<!-- ✅ **Respuesta correcta: b**  
+💡 *El diagrama de paquetes organiza el sistema en grupos lógicos para representar dependencias entre subsistemas.* -->
+
+14. ¿Cuál es una ventaja de aplicar patrones de diseño?  
+a) Promueven soluciones reutilizables y probadas  
+b) Aumentan la complejidad  
+c) Eliminan la necesidad de documentación  
+d) Reemplazan a UML  
+<!-- ✅ **Respuesta correcta: a**  
+💡 *Los patrones de diseño son soluciones ya probadas para problemas comunes, lo que mejora la calidad y reduce el esfuerzo.* -->
+
+15. Diseñar primero la interfaz permite:  
+a) Evitar errores de compilación  
+b) Definir claramente los contratos entre módulos  
+c) Ignorar los detalles internos  
+d) Programar más rápido  
+<!-- ✅ **Respuesta correcta: b**  
+💡 *Diseñar la interfaz establece las reglas de interacción entre módulos antes de escribir su implementación.* -->
 
 
 
