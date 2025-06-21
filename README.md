@@ -1127,7 +1127,6 @@ d) Rigidez en los procesos
 
 
 
-**Fin de la Unidad 3**
 
 
 
