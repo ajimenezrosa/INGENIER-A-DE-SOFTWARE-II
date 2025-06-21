@@ -9,6 +9,7 @@
 - [UNIDAD 1: INTRODUCCIÓN A LA INGENIERÍA DE SOFTWARE AVANZADA](#unidad1)
 - [UNIDAD 2: ARQUITECTURA DE SOFTWARE Y ESTILOS ARQUITECTÓNICOS MODERNOS](#unidad2)
 - [UNIDAD 3: DISEÑO DE SOFTWARE Y PRINCIPIOS DE BUENAS PRÁCTICAS](#unidad3)
+- [UNIDAD 4: METODOLOGÍAS ÁGILES Y GESTIÓN DE PROYECTOS DE SOFTWARE](#capitulo4)
 
 <!-- ✍️ Unidades propuestas a desarrollar:
 ✅ Unidad 3: Diseño de Software y Patrones de Diseño
@@ -912,6 +913,217 @@ c) Ignorar los detalles internos
 d) Programar más rápido  
 <!-- ✅ **Respuesta correcta: b**  
 💡 *Diseñar la interfaz establece las reglas de interacción entre módulos antes de escribir su implementación.* -->
+--- 
+
+
+# UNIDAD 4: METODOLOGÍAS ÁGILES Y GESTIÓN DE PROYECTOS DE SOFTWARE<a name="capitulo4"></a>
+
+## 4.1 Introducción a las Metodologías de Desarrollo
+
+El desarrollo de software ha evolucionado desde modelos rígidos y secuenciales como el modelo en cascada, hasta enfoques más iterativos, colaborativos y adaptativos, como las metodologías ágiles. Estas metodologías surgieron como una respuesta a los problemas de planificación y control en entornos de alta incertidumbre.
+
+## 4.2 ¿Qué es la Agilidad?
+
+La agilidad en el desarrollo de software es la capacidad de adaptarse a cambios de requisitos, reducir el tiempo de entrega y fomentar la colaboración continua con el cliente. El **Manifiesto Ágil**, publicado en 2001, establece valores y principios fundamentales que guían este enfoque:
+
+### 4.2.1 Valores del Manifiesto Ágil
+
+- **Individuos e interacciones** sobre procesos y herramientas  
+- **Software funcionando** sobre documentación extensiva  
+- **Colaboración con el cliente** sobre negociación de contratos  
+- **Respuesta ante el cambio** sobre seguir un plan rígido
+
+## 4.3 Principales Metodologías Ágiles
+
+### 4.3.1 Scrum
+
+Scrum es un marco de trabajo ágil centrado en la entrega incremental mediante iteraciones llamadas *sprints*. Incluye roles definidos (Product Owner, Scrum Master, Development Team) y eventos clave como Daily Scrum, Sprint Review y Sprint Retrospective.
+
+### 4.3.2 Kanban
+
+Kanban se enfoca en la visualización del flujo de trabajo a través de tableros y tarjetas. Permite gestionar tareas en curso, identificar cuellos de botella y mejorar continuamente el proceso.
+
+### 4.3.3 Extreme Programming (XP)
+
+XP enfatiza las buenas prácticas técnicas como desarrollo dirigido por pruebas (TDD), integración continua, programación en parejas y diseño simple.
+
+## 4.4 Comparación con Modelos Tradicionales
+
+| Aspecto                  | Modelo en Cascada       | Metodologías Ágiles      |
+|--------------------------|--------------------------|---------------------------|
+| Planificación inicial     | Extensa                  | Ligera y progresiva       |
+| Cambios de requisitos     | Difíciles de incorporar  | Bienvenidos               |
+| Entregas                 | Al final del proyecto    | Frecuentes e iterativas   |
+| Participación del cliente| Limitada                 | Continua y activa         |
+
+## 4.5 Roles en un Proyecto Ágil
+
+- **Product Owner**: define y prioriza el backlog del producto  
+- **Scrum Master**: facilita el proceso y elimina obstáculos  
+- **Equipo de Desarrollo**: construye el producto  
+- **Stakeholders**: usuarios, clientes o patrocinadores
+
+## 4.6 Herramientas de Gestión Ágil
+
+- **JIRA**  
+- **Trello**  
+- **Asana**  
+- **ClickUp**  
+Estas herramientas permiten gestionar tareas, visualizar flujos de trabajo y medir el rendimiento del equipo en tiempo real.
+
+## 4.7 Conclusión
+
+Las metodologías ágiles han transformado la forma en que se desarrollan los sistemas, priorizando la colaboración, la adaptabilidad y la entrega continua de valor. Su aplicación requiere un cambio cultural hacia la flexibilidad y la confianza en los equipos de desarrollo.
+
+---
+
+## ✏️ Práctica Asignable
+
+**Título:** Simulación de Proyecto Ágil con Scrum  
+**Objetivo:** Aplicar los conceptos de Scrum en un proyecto de software simulado.
+
+**Instrucciones:**
+
+1. Formar equipos de 3 a 5 estudiantes.
+2. Definir un producto simple (ej. una app de notas o un sistema de reservas).
+3. Crear un *Product Backlog* con al menos 10 historias de usuario.
+4. Simular dos *sprints*:
+   - Sprint 1: seleccionar historias, planificar y entregar resultados (puede ser en forma de prototipo o mockups).
+   - Sprint 2: integrar mejoras sugeridas en la *Sprint Review*.
+5. Documentar:
+   - Roles asumidos (Scrum Master, Product Owner)
+   - Daily meetings (resumen breve)
+   - Resultados de cada sprint
+   - Retrospectiva final del equipo
+
+**Entrega:** informe en PDF o presentación con capturas, reflexiones y aprendizajes.
+
+---
+
+## 📝 Examen Unidad 4: Metodologías Ágiles
+
+
+**Selecciona la opción correcta en cada caso.**
+
+1. ¿Cuál es uno de los valores del Manifiesto Ágil?  
+a) Documentación detallada sobre software funcionando  
+b) Procesos sobre individuos  
+c) Contratos sobre colaboración  
+d) Software funcionando sobre documentación extensiva
+<!-- ✅ **Respuesta correcta: d**  
+💡 *El enfoque ágil prioriza entregar valor funcional sobre exceso de documentación.* -->
+
+2. ¿Qué metodología ágil se basa en iteraciones llamadas sprints?  
+a) XP  
+b) Kanban  
+c) Scrum  
+d) Lean  
+<!-- ✅ **Respuesta correcta: c**  
+💡 *Scrum estructura el trabajo en ciclos cortos y repetitivos llamados sprints.* -->
+
+3. ¿Cuál de los siguientes es un rol en Scrum?  
+a) Coordinador general  
+b) Supervisor técnico  
+c) Product Owner  
+d) Líder de procesos  
+<!-- ✅ **Respuesta correcta: c**  
+💡 *El Product Owner gestiona el backlog y prioriza tareas en Scrum.* -->
+
+4. ¿Qué herramienta permite visualizar el flujo de trabajo de manera simple y visual?  
+a) GitHub  
+b) Trello  
+c) Eclipse  
+d) Docker  
+<!-- ✅ **Respuesta correcta: b**  
+💡 *Trello usa tableros para gestionar tareas visualmente.* -->
+
+5. ¿Qué metodología enfatiza el desarrollo dirigido por pruebas (TDD)?  
+a) Scrum  
+b) XP  
+c) Kanban  
+d) SAFe  
+<!-- ✅ **Respuesta correcta: b**  
+💡 *Extreme Programming promueve TDD, integración continua y diseño simple.* -->
+
+6. ¿Cuál es una diferencia entre metodologías ágiles y modelos tradicionales?  
+a) Las ágiles requieren más documentación  
+b) Las tradicionales permiten mayor participación del cliente  
+c) Las ágiles entregan software frecuentemente  
+d) Las tradicionales son iterativas  
+<!-- ✅ **Respuesta correcta: c**  
+💡 *Las metodologías ágiles entregan valor en ciclos cortos.* -->
+
+7. En Kanban, ¿qué representa una tarjeta en el tablero?  
+a) Un error técnico  
+b) Un paso del proceso  
+c) Una tarea específica  
+d) Un ciclo de desarrollo  
+<!-- ✅ **Respuesta correcta: c**  
+💡 *Cada tarjeta representa una tarea o historia de usuario.* -->
+
+8. ¿Qué herramienta NO está orientada a metodologías ágiles?  
+a) Trello  
+b) JIRA  
+c) Visual Studio  
+d) ClickUp  
+<!-- ✅ **Respuesta correcta: c**  
+💡 *Visual Studio es un entorno de desarrollo, no de gestión ágil.* -->
+
+9. ¿Qué evento ocurre diariamente en Scrum para sincronizar al equipo?  
+a) Sprint Planning  
+b) Retrospective  
+c) Daily Scrum  
+d) Demo Review  
+<!-- ✅ **Respuesta correcta: c**  
+💡 *Daily Scrum es una reunión diaria rápida para alineación.* -->
+
+10. ¿Qué rol ayuda a remover obstáculos en Scrum?  
+a) Product Owner  
+b) Scrum Master  
+c) Programador líder  
+d) Tester  
+<!-- ✅ **Respuesta correcta: b**  
+💡 *El Scrum Master facilita y protege al equipo del ruido externo.* -->
+
+11. ¿Qué se evalúa durante la retrospectiva de un sprint?  
+a) Las métricas de desempeño  
+b) Los errores de compilación  
+c) El diseño visual  
+d) El proceso y la colaboración del equipo  
+<!-- ✅ **Respuesta correcta: d**  
+💡 *En la retrospectiva se analizan mejoras para el próximo sprint.* -->
+
+12. ¿Cuál es el primer paso antes de iniciar un sprint?  
+a) Daily meeting  
+b) Sprint Review  
+c) Sprint Planning  
+d) Sprint Retrospective  
+<!-- ✅ **Respuesta correcta: c**  
+💡 *Sprint Planning define el alcance del trabajo que se hará.* -->
+
+13. ¿Qué se prioriza en el desarrollo ágil?  
+a) Planificación detallada  
+b) Acuerdos contractuales  
+c) Resultados funcionales frecuentes  
+d) Evaluaciones finales  
+<!-- ✅ **Respuesta correcta: c**  
+💡 *El enfoque ágil busca entregar valor continuamente.* -->
+
+14. ¿Qué función cumple el Product Backlog?  
+a) Mostrar errores  
+b) Registrar tareas completadas  
+c) Listar historias de usuario priorizadas  
+d) Guardar documentación  
+<!-- ✅ **Respuesta correcta: c**  
+💡 *El Product Backlog contiene los requerimientos del producto ordenados por valor.* -->
+
+15. ¿Qué ventaja ofrecen las metodologías ágiles?  
+a) Reducción total de errores  
+b) Eliminación del rol del cliente  
+c) Flexibilidad ante el cambio  
+d) Rigidez en los procesos  
+<!-- ✅ **Respuesta correcta: c**  
+💡 *La adaptabilidad es clave en entornos cambiantes.* -->
 
 
 
