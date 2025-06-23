@@ -984,7 +984,7 @@ Las metodologías ágiles han transformado la forma en que se desarrollan los si
 
 **Instrucciones:**
 
-1. Formar equipos de 3 a 5 estudiantes.
+1. Formar equipos de 2 a 3 estudiantes.
 2. Definir un producto simple (ej. una app de notas o un sistema de reservas).
 3. Crear un *Product Backlog* con al menos 10 historias de usuario.
 4. Simular dos *sprints*:
