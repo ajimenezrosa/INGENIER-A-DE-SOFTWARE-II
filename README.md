@@ -10,6 +10,9 @@
 - [UNIDAD 2: ARQUITECTURA DE SOFTWARE Y ESTILOS ARQUITECTÓNICOS MODERNOS](#unidad2)
 - [UNIDAD 3: DISEÑO DE SOFTWARE Y PRINCIPIOS DE BUENAS PRÁCTICAS](#unidad3)
 - [UNIDAD 4: METODOLOGÍAS ÁGILES Y GESTIÓN DE PROYECTOS DE SOFTWARE](#capitulo4)
+- [ UNIDAD 5: CONTROL DE CALIDAD Y PRUEBAS DE SOFTWARE](#unidad5)
+- [UNIDAD 6: INTEGRACIÓN Y ENTREGA CONTINUA (CI/CD)](#unidad6)
+
 
 <!-- ✍️ Unidades propuestas a desarrollar:
 ✅ Unidad 3: Diseño de Software y Patrones de Diseño
@@ -1126,9 +1129,354 @@ d) Rigidez en los procesos
 💡 *La adaptabilidad es clave en entornos cambiantes.* -->
 
 
+# 
 
+# UNIDAD 5: CONTROL DE CALIDAD Y PRUEBAS DE SOFTWARE
 
+## 5.1 Introducción al Control de Calidad de Software<a name="unidad5"></a>
 
+El control de calidad en el desarrollo de software se refiere al conjunto de actividades destinadas a garantizar que el producto cumpla con los estándares de calidad previamente establecidos. A diferencia del aseguramiento de calidad, que busca prevenir errores mediante procesos bien definidos, el control de calidad se enfoca en detectar y corregir defectos en el producto final.
 
+**Objetivos del control de calidad:**
+- Verificar que el software funcione según lo esperado.
+- Detectar defectos antes de la entrega al cliente.
+- Validar que se cumplen los requerimientos funcionales y no funcionales.
+
+**Verificación vs Validación:**
+- **Verificación:** ¿Estamos construyendo el producto correctamente?
+- **Validación:** ¿Estamos construyendo el producto correcto?
+
+---
+
+## 5.2 Tipos de Pruebas de Software
+
+Las pruebas de software se clasifican en diferentes tipos según su propósito y momento de aplicación en el ciclo de vida del software.
+
+### Pruebas según el nivel de abstracción:
+- **Pruebas Unitarias:** Verifican el correcto funcionamiento de unidades pequeñas e independientes de código, como funciones o métodos.
+- **Pruebas de Integración:** Evalúan la interacción entre varios módulos o componentes.
+- **Pruebas de Sistema:** Validan el sistema completo como una unidad funcional.
+- **Pruebas de Aceptación:** Aseguran que el producto cumple con los requerimientos del cliente.
+
+### Pruebas según la naturaleza:
+- **Pruebas Funcionales:** Validan las funcionalidades del sistema según los requisitos especificados.
+- **Pruebas No Funcionales:** Evalúan características como rendimiento, usabilidad, confiabilidad, escalabilidad, etc.
+
+### Pruebas según el método:
+- **Pruebas Manuales:** Ejecutadas por un tester sin el uso de herramientas automatizadas.
+- **Pruebas Automatizadas:** Implementadas con scripts y herramientas que ejecutan pruebas automáticamente.
+
+---
+
+## 5.3 Herramientas y Entornos de Pruebas
+
+En la actualidad, existen múltiples herramientas para facilitar el proceso de pruebas en las distintas etapas del desarrollo de software.
+
+**Pruebas unitarias:**
+- **JUnit** (Java)
+- **NUnit** (.NET)
+- **PyTest** (Python)
+
+**Automatización de pruebas funcionales:**
+- **Selenium**: Automatización de pruebas web.
+- **Cypress**: Pruebas modernas de frontend.
+- **TestCafe**: Pruebas E2E rápidas para aplicaciones web.
+
+**Pruebas de carga y rendimiento:**
+- **JMeter**: Pruebas de estrés y carga.
+- **Gatling**: Rendimiento y escalabilidad.
+
+**CI/CD con integración de pruebas:**
+- **GitHub Actions**
+- **GitLab CI**
+- **Jenkins**
+
+---
+
+## 5.4 Estrategias de Pruebas y Cobertura de Código
+
+**Caja blanca:**  
+El tester conoce la estructura interna del código. Se enfoca en la lógica de programación y las estructuras de control.
+
+**Caja negra:**  
+El tester no conoce el código fuente y se enfoca en entradas y salidas esperadas.
+
+**Cobertura de código:**  
+Métrica utilizada para determinar qué porcentaje del código fuente es ejecutado por las pruebas. Puede incluir:
+- Cobertura de líneas
+- Cobertura de funciones/métodos
+- Cobertura de condiciones y decisiones
+
+Las herramientas modernas permiten integrar análisis de cobertura en los pipelines de CI/CD, ayudando a mantener altos niveles de calidad.
+
+---
+
+## 5.5 Gestión de Defectos y Reporte de Errores
+
+La correcta gestión de errores es esencial para el éxito de los proyectos. Esto incluye la identificación, registro, seguimiento, priorización y resolución de los defectos.
+
+**Flujo típico de un bug:**
+1. Detección y reporte del error.
+2. Asignación al equipo correspondiente.
+3. Reproducción y análisis del defecto.
+4. Corrección y validación de la solución.
+5. Cierre del incidente.
+
+**Herramientas populares:**
+- **Jira**
+- **Bugzilla**
+- **Azure DevOps**
+- **Redmine**
+
+**Priorización:**
+- **Crítico:** Impide el funcionamiento del sistema.
+- **Alto:** Afecta funciones clave.
+- **Medio:** No afecta el uso principal, pero debe corregirse.
+- **Bajo:** No interfiere significativamente, puede postergarse.
+
+---
+
+## 🛠️ Práctica Sugerida
+
+Desarrolla una aplicación sencilla (por ejemplo, una calculadora) y realiza lo siguiente:
+
+1. Crea pruebas unitarias para las operaciones básicas.
+2. Integra pruebas automatizadas usando una herramienta como JUnit o PyTest.
+3. Configura un reporte de cobertura de código.
+4. Simula un ciclo de reporte y gestión de errores en Jira.
+5. Crea un pipeline de CI que ejecute las pruebas automáticamente al hacer un commit.
+
+---
+
+## 🧠 Examen Tipo Test
+
+**1. ¿Cuál es la diferencia principal entre pruebas funcionales y no funcionales?**  
+a) Las funcionales se ejecutan manualmente y las no funcionales automáticamente  
+b) Las funcionales validan funcionalidades y las no funcionales evalúan atributos del sistema ✅  
+c) Las funcionales prueban el código y las no funcionales la base de datos  
+d) No existe diferencia
+
+**2. ¿Qué herramienta se utiliza comúnmente para pruebas unitarias en Java?**  
+a) Selenium  
+b) JMeter  
+c) JUnit ✅  
+d) SonarQube
+
+**3. ¿Qué representa una cobertura de código del 80%?**  
+a) Que el 80% de los usuarios están cubiertos por las pruebas  
+b) Que el 80% del código fue ejecutado al menos una vez por las pruebas ✅  
+c) Que el 80% del equipo escribió pruebas  
+d) Que el 80% de los errores se han resuelto
+
+**4. ¿Cuál de las siguientes herramientas se utiliza para pruebas de carga?**  
+a) Jenkins  
+b) Selenium  
+c) JMeter ✅  
+d) Git
+
+**5. En el control de calidad de software, ¿qué significa validación?**  
+a) Verificar que el sistema no tenga errores de sintaxis  
+b) Confirmar que el software cumple los requerimientos del cliente ✅  
+c) Confirmar que el código se ejecuta sin errores  
+d) Validar que la base de datos esté conectada
+
+---
+
+## 📚 Conclusión
+
+El control de calidad y las pruebas de software son elementos fundamentales en cualquier proceso de desarrollo moderno. Implementar estrategias de pruebas adecuadas, seleccionar herramientas eficientes y gestionar los defectos correctamente son prácticas que elevan la confiabilidad y mantenibilidad del software. Esta unidad establece los cimientos necesarios para que los futuros ingenieros de software comprendan la importancia de la calidad y su rol crítico en el ciclo de vida del desarrollo.
+
+---
 
 # 
+
+# UNIDAD 6: INTEGRACIÓN Y ENTREGA CONTINUA (CI/CD)<a name="unidad6"></a>
+
+## 6.1 Introducción al DevOps y CI/CD
+
+El desarrollo de software moderno requiere velocidad, eficiencia y confiabilidad. Para lograrlo, surge la filosofía **DevOps**, que promueve la colaboración entre los equipos de desarrollo (Dev) y operaciones (Ops) para automatizar y mejorar continuamente la entrega de software.
+
+Uno de los pilares fundamentales de DevOps es la adopción de prácticas de **Integración Continua (CI)** y **Entrega Continua (CD)**, que permiten validar, integrar y desplegar software de manera rápida, segura y repetible.
+
+**Beneficios clave de CI/CD:**
+- Reducción del tiempo de entrega.
+- Mayor calidad y consistencia en las versiones.
+- Detección temprana de errores.
+- Automatización de procesos repetitivos.
+
+---
+
+## 6.2 Integración Continua (CI)
+
+La **Integración Continua (CI)** consiste en integrar los cambios del código frecuentemente (varias veces al día), validando automáticamente cada integración mediante compilación, pruebas unitarias y otros análisis.
+
+### Componentes de CI:
+- **Repositorio de código fuente:** Git, GitHub, GitLab, Bitbucket.
+- **Servidor de CI:** Jenkins, GitHub Actions, GitLab CI/CD, Azure Pipelines.
+- **Ejecución automática de pruebas:** Unitarias, de integración, de cobertura.
+- **Notificaciones:** Slack, correo, dashboards.
+
+### Buenas prácticas:
+- Confirmar commits frecuentemente con cambios pequeños.
+- Mantener el repositorio limpio y funcional.
+- Ejecutar pruebas en cada push.
+- Corregir fallos de compilación o pruebas de inmediato.
+
+### Ejemplo básico en GitHub Actions:
+
+```yaml
+name: CI Pipeline
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Instalar dependencias
+        run: npm install
+      - name: Ejecutar pruebas
+        run: npm test
+````
+
+---
+
+## 6.3 Entrega Continua (CD)
+
+La **Entrega Continua (CD)** extiende la integración continua automatizando también el proceso de entrega del software a entornos de prueba o producción. El objetivo es que cada cambio que pase las pruebas pueda ser desplegado automáticamente.
+
+### Ventajas de la entrega continua:
+
+* Reducción de errores en producción.
+* Despliegues más rápidos y seguros.
+* Entrega de valor al cliente de forma constante.
+
+### Proceso típico de CD:
+
+1. Validación del código.
+2. Pruebas automatizadas.
+3. Construcción del artefacto.
+4. Despliegue automático a entornos (QA, staging, producción).
+
+### Herramientas para CD:
+
+* Jenkins
+* GitHub Actions
+* GitLab CI/CD
+* CircleCI
+* Azure DevOps
+
+---
+
+## 6.4 Infraestructura como Código (IaC)
+
+La **Infraestructura como Código (IaC)** permite definir, versionar y desplegar entornos completos de infraestructura usando archivos de configuración.
+
+### Herramientas comunes:
+
+* **Terraform:** Gestión de infraestructura multiplataforma (AWS, Azure, GCP).
+* **Ansible:** Automatización de configuración y despliegue.
+* **Docker:** Contenerización de aplicaciones.
+* **Kubernetes:** Orquestación de contenedores a gran escala.
+
+### Beneficios:
+
+* Reproducibilidad de entornos.
+* Versionamiento y trazabilidad.
+* Despliegues consistentes.
+* Reducción de errores humanos.
+
+### Ejemplo básico de Dockerfile:
+
+```Dockerfile
+FROM node:18
+WORKDIR /app
+COPY package*.json ./
+RUN npm install
+COPY . .
+CMD ["npm", "start"]
+```
+
+---
+
+## 6.5 Buenas Prácticas y Seguridad en CI/CD
+
+En un entorno de CI/CD, la seguridad debe ser parte integral del proceso. Esto se conoce como **DevSecOps**: integrar la seguridad desde el inicio del desarrollo.
+
+### Buenas prácticas:
+
+* **Manejo seguro de secretos:** No almacenar contraseñas en el repositorio; usar vaults o variables de entorno.
+* **Escaneo automático de vulnerabilidades:** Usar herramientas como SonarQube, Snyk, OWASP ZAP.
+* **Control de acceso a pipelines:** Autenticación multifactor y permisos mínimos.
+* **Auditoría y trazabilidad:** Mantener registros de los despliegues y cambios.
+
+---
+
+## 🛠️ Práctica Sugerida
+
+1. Crea un repositorio en GitHub con una aplicación básica (API o web).
+2. Configura un pipeline de CI en GitHub Actions que:
+
+   * Instale dependencias.
+   * Ejecute pruebas unitarias.
+   * Genere reporte de cobertura.
+3. Agrega una etapa de entrega continua que despliegue a un entorno de staging (puede ser un servidor local o remoto vía SSH).
+4. Usa Docker para contenerizar la aplicación.
+5. Agrega escaneo de seguridad en las dependencias del proyecto.
+
+---
+
+## 🧠 Examen Tipo Test
+
+**1. ¿Qué objetivo tiene la Integración Continua (CI)?**
+a) Compilar el código una vez por semana
+b) Ejecutar pruebas manuales en cada despliegue
+c) Integrar y probar los cambios de código frecuentemente ✅
+d) Instalar dependencias de los servidores
+
+**2. ¿Qué herramienta permite definir infraestructura como código?**
+a) Selenium
+b) Terraform ✅
+c) GitHub
+d) Jira
+
+**3. ¿Qué comando inicia una aplicación definida en un Dockerfile?**
+a) `node app.js`
+b) `npm install`
+c) `docker build`
+d) `npm start` ✅
+
+**4. ¿Cuál es una ventaja de la entrega continua?**
+a) Despliegue manual de software
+b) Eliminar la automatización
+c) Publicar versiones de forma segura y frecuente ✅
+d) Incrementar el tiempo de pruebas
+
+**5. ¿Qué representa IaC en el contexto de DevOps?**
+a) Control de interfaces de usuario
+b) Automatización de bases de datos
+c) Infraestructura como Código ✅
+d) Integración con arquitecturas clásicas
+
+---
+
+## 📚 Conclusión
+
+La automatización de los procesos de desarrollo, pruebas y despliegue mediante CI/CD ha transformado la forma en que se construyen y entregan soluciones de software. Los ingenieros de software deben dominar estas prácticas modernas no solo para ser competitivos, sino para garantizar la calidad, velocidad y confiabilidad en los proyectos. Esta unidad proporciona los conocimientos fundamentales para construir pipelines eficientes, seguros y escalables, listos para ambientes empresariales y de producción.
+
+---
+
+```
+```
+
+
+
+
+
+
+
+
+
