@@ -12,7 +12,7 @@
 - [UNIDAD 4: METODOLOGÍAS ÁGILES Y GESTIÓN DE PROYECTOS DE SOFTWARE](#capitulo4)
 - [ UNIDAD 5: CONTROL DE CALIDAD Y PRUEBAS DE SOFTWARE](#unidad5)
 - [UNIDAD 6: INTEGRACIÓN Y ENTREGA CONTINUA (CI/CD)](#unidad6)
-
+- [UNIDAD 7: MANTENIMIENTO, EVOLUCIÓN Y REFACCIÓN DE SOFTWARE](#unidad7)
 
 <!-- ✍️ Unidades propuestas a desarrollar:
 ✅ Unidad 3: Diseño de Software y Patrones de Diseño
@@ -1469,8 +1469,168 @@ La automatización de los procesos de desarrollo, pruebas y despliegue mediante 
 
 ---
 
-```
-```
+# 
+
+# UNIDAD 7: MANTENIMIENTO, EVOLUCIÓN Y REFACCIÓN DE SOFTWARE<a name="unidad7"></a>
+
+## 7.1 Ciclo de Vida del Software en Producción
+
+El desarrollo de un sistema no finaliza con su implementación. Una parte crucial del ciclo de vida del software es su **mantenimiento** una vez ha sido desplegado. A medida que cambian los requisitos del negocio, evolucionan las tecnologías y se identifican defectos, el software necesita adaptarse constantemente.
+
+### Tipos de mantenimiento:
+- **Correctivo:** Corrección de errores encontrados después del despliegue.
+- **Adaptativo:** Ajustes necesarios para que el software funcione con nuevos entornos (SO, hardware, dependencias).
+- **Perfectivo:** Mejoras en funcionalidades existentes o en la interfaz de usuario.
+- **Preventivo:** Cambios que mejoran la mantenibilidad del software para evitar futuros problemas.
+
+El mantenimiento consume una gran parte del costo total de un sistema a lo largo de su vida útil, por lo que es vital estructurarlo correctamente desde las fases iniciales de desarrollo.
+
+---
+
+## 7.2 Refactorización de Código
+
+La **refactorización** es el proceso de modificar el código fuente para mejorar su estructura interna sin cambiar su comportamiento externo.
+
+### Objetivos de la refactorización:
+- Mejorar la legibilidad.
+- Reducir la complejidad.
+- Aumentar la reutilización y mantenibilidad.
+- Eliminar duplicaciones y código innecesario.
+
+### Principales técnicas de refactorización:
+- Extraer método (`Extract Method`)
+- Renombrar variable (`Rename Variable`)
+- Reemplazar código duplicado con abstracciones
+- Introducir objetos o clases auxiliares
+
+### Buenas prácticas:
+- Refactorizar siempre con pruebas automatizadas disponibles.
+- Realizar pequeños cambios con commits frecuentes.
+- Documentar los motivos del cambio.
+
+### Herramientas de refactorización:
+- IDEs como IntelliJ, Visual Studio, VS Code, Eclipse.
+- Linters y analizadores estáticos como ESLint, SonarQube.
+
+---
+
+## 7.3 Gestión de la Deuda Técnica
+
+La **deuda técnica** representa las decisiones rápidas o subóptimas tomadas durante el desarrollo que comprometen la calidad interna del software a cambio de entregar más rápido. Aunque en el corto plazo puede parecer beneficiosa, a largo plazo eleva los costos de mantenimiento y dificulta la evolución del sistema.
+
+### Causas comunes:
+- Código no documentado ni comentado.
+- Arquitectura mal diseñada.
+- Falta de pruebas automatizadas.
+- Dependencias obsoletas o mal gestionadas.
+
+### Gestión efectiva:
+- Identificar la deuda mediante revisiones de código.
+- Priorizar su pago en el backlog del proyecto.
+- Establecer métricas de calidad como:
+  - Complejidad ciclomática
+  - Duplicación de código
+  - Cobertura de pruebas
+
+---
+
+## 7.4 Migración y Modernización de Sistemas
+
+A medida que el software envejece o se transforma el entorno tecnológico, puede ser necesario realizar una **migración** o **modernización** del sistema. Esto implica actualizar tecnologías, patrones arquitectónicos o incluso lenguajes de programación.
+
+### Tipos de migración:
+- **Tecnológica:** Migrar a un nuevo framework, base de datos o entorno de ejecución.
+- **Funcional:** Reescritura o rediseño de módulos clave.
+- **Arquitectónica:** Pasar de monolitos a microservicios o a arquitecturas en la nube.
+
+### Consideraciones clave:
+- Evaluar el impacto de los cambios.
+- Ejecutar pruebas de regresión.
+- Mantener la trazabilidad de versiones.
+- Asegurar compatibilidad con sistemas externos.
+
+### Enfoques comunes:
+- Estrategia **Big Bang:** Migrar todo el sistema en un solo evento.
+- Estrategia **Incremental:** Migrar por módulos o servicios.
+
+---
+
+## 7.5 Gestión de la Configuración del Software
+
+La **gestión de configuración** consiste en controlar y registrar todos los cambios realizados al software, asegurando la integridad y trazabilidad del producto a lo largo del tiempo.
+
+### Actividades principales:
+- Control de versiones del código fuente.
+- Registro de cambios y motivos de modificaciones.
+- Mantenimiento de configuraciones por ambiente (dev, QA, prod).
+- Reversiones en caso de errores.
+
+### Herramientas de control de versiones:
+- **Git:** El más popular y distribuido.
+- **SVN:** Sistema centralizado.
+- **Mercurial:** Alternativa moderna a SVN.
+
+### Buenas prácticas con Git:
+- Usar ramas para separar funcionalidades.
+- Escribir mensajes de commit descriptivos.
+- Hacer `merge` o `rebase` con control y revisión.
+- Aplicar estrategias como Git Flow o Trunk-Based Development.
+
+---
+
+## 🛠️ Práctica Sugerida
+
+Desarrolla un módulo sencillo y:
+
+1. Identifica oportunidades de refactorización.
+2. Aplica al menos tres técnicas de refactorización distintas.
+3. Documenta los cambios realizados.
+4. Simula deuda técnica introduciendo errores intencionales, y luego planifica su corrección.
+5. Usa Git para versionar cada paso con mensajes claros y estructurados.
+6. Realiza un pequeño plan de migración de una tecnología obsoleta a una más moderna (por ejemplo, de jQuery a React).
+
+---
+
+## 🧠 Examen Tipo Test
+
+**1. ¿Cuál de los siguientes es un tipo de mantenimiento de software?**  
+a) Activo  
+b) Correctivo ✅  
+c) Progresivo  
+d) Iterativo
+
+**2. ¿Qué es la refactorización?**  
+a) Reescribir una aplicación desde cero  
+b) Cambiar la arquitectura sin modificar el código  
+c) Modificar el código sin alterar su comportamiento externo ✅  
+d) Eliminar módulos antiguos del sistema
+
+**3. ¿Qué representa la deuda técnica?**  
+a) Horas no pagadas al equipo de desarrollo  
+b) Código que debe eliminarse completamente  
+c) Decisiones que reducen calidad interna a corto plazo ✅  
+d) Errores del sistema sin documentación
+
+**4. ¿Qué herramienta se usa comúnmente para control de versiones?**  
+a) Docker  
+b) Jenkins  
+c) Git ✅  
+d) Jira
+
+**5. ¿Qué estrategia de migración consiste en cambiar todo el sistema en una sola operación?**  
+a) Migración por etapas  
+b) Refactorización controlada  
+c) Enfoque Big Bang ✅  
+d) Microservicios paralelos
+
+---
+
+## 📚 Conclusión
+
+El mantenimiento y evolución del software son etapas permanentes que determinan el éxito o fracaso de un sistema a largo plazo. Aprender a refactorizar, controlar la configuración, gestionar la deuda técnica y planificar adecuadamente las migraciones permite a los ingenieros de software entregar productos sostenibles, robustos y alineados con las necesidades cambiantes del negocio. Esta unidad brinda las herramientas conceptuales y prácticas necesarias para dominar estas tareas clave en la ingeniería de software avanzada.
+
+---
+
 
 
 
