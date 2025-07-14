@@ -1252,6 +1252,38 @@ Desarrolla una aplicación sencilla (por ejemplo, una calculadora) y realiza lo 
 
 **1. ¿Cuál es la diferencia principal entre pruebas funcionales y no funcionales?**  
 a) Las funcionales se ejecutan manualmente y las no funcionales automáticamente  
+b) Las funcionales validan funcionalidades y las no funcionales evalúan atributos del sistema 
+c) Las funcionales prueban el código y las no funcionales la base de datos  
+d) No existe diferencia
+
+**2. ¿Qué herramienta se utiliza comúnmente para pruebas unitarias en Java?**  
+a) Selenium  
+b) JMeter  
+c) JUnit 
+d) SonarQube
+
+**3. ¿Qué representa una cobertura de código del 80%?**  
+a) Que el 80% de los usuarios están cubiertos por las pruebas  
+b) Que el 80% del código fue ejecutado al menos una vez por las pruebas 
+c) Que el 80% del equipo escribió pruebas  
+d) Que el 80% de los errores se han resuelto
+
+**4. ¿Cuál de las siguientes herramientas se utiliza para pruebas de carga?**  
+a) Jenkins  
+b) Selenium  
+c) JMeter 
+d) Git
+
+**5. En el control de calidad de software, ¿qué significa validación?**  
+a) Verificar que el sistema no tenga errores de sintaxis  
+b) Confirmar que el software cumple los requerimientos del cliente 
+c) Confirmar que el código se ejecuta sin errores  
+d) Validar que la base de datos esté conectada
+
+
+<!-- Respuesta
+**1. ¿Cuál es la diferencia principal entre pruebas funcionales y no funcionales?**  
+a) Las funcionales se ejecutan manualmente y las no funcionales automáticamente  
 b) Las funcionales validan funcionalidades y las no funcionales evalúan atributos del sistema ✅  
 c) Las funcionales prueban el código y las no funcionales la base de datos  
 d) No existe diferencia
@@ -1278,7 +1310,9 @@ d) Git
 a) Verificar que el sistema no tenga errores de sintaxis  
 b) Confirmar que el software cumple los requerimientos del cliente ✅  
 c) Confirmar que el código se ejecuta sin errores  
-d) Validar que la base de datos esté conectada
+d) Validar que la base de datos esté conectada -->
+
+
 
 ---
 
@@ -1434,6 +1468,41 @@ En un entorno de CI/CD, la seguridad debe ser parte integral del proceso. Esto s
 **1. ¿Qué objetivo tiene la Integración Continua (CI)?**
 a) Compilar el código una vez por semana
 b) Ejecutar pruebas manuales en cada despliegue
+c) Integrar y probar los cambios de código frecuentemente 
+d) Instalar dependencias de los servidores
+
+**2. ¿Qué herramienta permite definir infraestructura como código?**
+a) Selenium
+b) Terraform 
+c) GitHub
+d) Jira
+
+**3. ¿Qué comando inicia una aplicación definida en un Dockerfile?**
+a) `node app.js`
+b) `npm install`
+c) `docker build`
+d) `npm start` 
+
+**4. ¿Cuál es una ventaja de la entrega continua?**
+a) Despliegue manual de software
+b) Eliminar la automatización
+c) Publicar versiones de forma segura y frecuente 
+d) Incrementar el tiempo de pruebas
+
+**5. ¿Qué representa IaC en el contexto de DevOps?**
+a) Control de interfaces de usuario
+b) Automatización de bases de datos
+c) Infraestructura como Código 
+d) Integración con arquitecturas clásicas
+
+---
+
+<!-- 
+## 🧠 Examen Tipo Test
+
+**1. ¿Qué objetivo tiene la Integración Continua (CI)?**
+a) Compilar el código una vez por semana
+b) Ejecutar pruebas manuales en cada despliegue
 c) Integrar y probar los cambios de código frecuentemente ✅
 d) Instalar dependencias de los servidores
 
@@ -1461,7 +1530,11 @@ b) Automatización de bases de datos
 c) Infraestructura como Código ✅
 d) Integración con arquitecturas clásicas
 
----
+--- -->
+
+
+
+
 
 ## 📚 Conclusión
 
@@ -1595,6 +1668,42 @@ Desarrolla un módulo sencillo y:
 
 **1. ¿Cuál de los siguientes es un tipo de mantenimiento de software?**  
 a) Activo  
+b) Correctivo 
+c) Progresivo  
+d) Iterativo
+
+**2. ¿Qué es la refactorización?**  
+a) Reescribir una aplicación desde cero  
+b) Cambiar la arquitectura sin modificar el código  
+c) Modificar el código sin alterar su comportamiento externo 
+d) Eliminar módulos antiguos del sistema
+
+**3. ¿Qué representa la deuda técnica?**  
+a) Horas no pagadas al equipo de desarrollo  
+b) Código que debe eliminarse completamente  
+c) Decisiones que reducen calidad interna a corto plazo 
+d) Errores del sistema sin documentación
+
+**4. ¿Qué herramienta se usa comúnmente para control de versiones?**  
+a) Docker  
+b) Jenkins  
+c) Git 
+d) Jira
+
+**5. ¿Qué estrategia de migración consiste en cambiar todo el sistema en una sola operación?**  
+a) Migración por etapas  
+b) Refactorización controlada  
+c) Enfoque Big Bang 
+d) Microservicios paralelos
+
+---
+
+
+<!-- 
+## 🧠 Examen Tipo Test
+
+**1. ¿Cuál de los siguientes es un tipo de mantenimiento de software?**  
+a) Activo  
 b) Correctivo ✅  
 c) Progresivo  
 d) Iterativo
@@ -1623,7 +1732,10 @@ b) Refactorización controlada
 c) Enfoque Big Bang ✅  
 d) Microservicios paralelos
 
----
+--- -->
+
+
+
 
 ## 📚 Conclusión
 
