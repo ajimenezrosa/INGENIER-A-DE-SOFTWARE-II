@@ -544,106 +544,121 @@ Para evaluar la calidad de un diseño se consideran:
 1. **¿Qué principio busca dividir el sistema en partes independientes?**  
    - A) Acoplamiento  
    - B) Herencia  
-   - ✅ C) Modularidad  
+   - C) Modularidad  
    - D) Encapsulamiento  
+   <!-- - ✅ C) Modularidad   -->
    **Justificación:** La modularidad permite dividir un sistema en partes independientes, facilitando su mantenimiento, escalabilidad y reutilización.
 
 2. **Un ejemplo de acoplamiento bajo es:**  
    - A) Una clase que usa directamente otra clase concreta  
-   - ✅ B) Una clase que depende de una interfaz  
+   - B) Una clase que depende de una interfaz  
    - C) Dos clases que comparten variables globales  
    - D) Una clase que hereda de múltiples clases  
+   <!-- - ✅ B) Una clase que depende de una interfaz   -->
    **Justificación:** Acoplamiento bajo se logra cuando una clase depende de abstracciones (interfaces), lo que la hace menos dependiente de implementaciones concretas.
 
 3. **El diagrama UML que representa la interacción entre objetos es:**  
    - A) Diagrama de clases  
-   - ✅ B) Diagrama de secuencia  
+   - B) Diagrama de secuencia  
    - C) Diagrama de casos de uso  
    - D) Diagrama de paquetes  
+   <!-- - ✅ B) Diagrama de secuencia   -->
    **Justificación:** El diagrama de secuencia muestra cómo los objetos interactúan en el tiempo, representando el flujo de mensajes entre ellos.
 
 4. **El patrón Singleton se usa para:**  
    - A) Crear muchas instancias de una clase  
-   - ✅ B) Garantizar que solo exista una instancia  
+   - B) Garantizar que solo exista una instancia  
    - C) Heredar de múltiples clases  
    - D) Agregar interfaces en tiempo de ejecución  
+   <!-- - ✅ B) Garantizar que solo exista una instancia   -->
    **Justificación:** Singleton restringe la creación de objetos a una sola instancia, útil para configuraciones, logging y acceso global controlado.
 
 5. **La modularidad ayuda a:**  
    - A) Hacer el sistema más lento  
    - B) Duplicar código  
-   - ✅ C) Separar responsabilidades  
+   - C) Separar responsabilidades  
    - D) Aumentar el acoplamiento  
+   <!-- - ✅ C) Separar responsabilidades   -->
    **Justificación:** La modularidad organiza el sistema en unidades con funciones específicas, facilitando el mantenimiento y la evolución del software.
 
 6. **El patrón Observer sirve para:**  
    - A) Ejecutar algoritmos en paralelo  
-   - ✅ B) Notificar múltiples objetos sobre un cambio  
+   - B) Notificar múltiples objetos sobre un cambio  
    - C) Convertir interfaces incompatibles  
    - D) Asegurar la herencia múltiple  
+   <!-- - ✅ B) Notificar múltiples objetos sobre un cambio   -->
    **Justificación:** Observer permite la suscripción de múltiples objetos a eventos generados por otro objeto (el sujeto), promoviendo la desacoplación.
 
 7. **El patrón Adapter se clasifica como:**  
    - A) Creacional  
-   - ✅ B) Estructural  
+   - B) Estructural  
    - C) De comportamiento  
    - D) De control  
+   <!-- - ✅ B) Estructural   -->
    **Justificación:** Adapter adapta una interfaz a otra para permitir compatibilidad entre clases, siendo un patrón que estructura cómo interactúan las clases.
 
 8. **Un buen diseño debe tener:**  
    - A) Muchas dependencias  
-   - ✅ B) Bajo acoplamiento y alta cohesión  
+   - B) Bajo acoplamiento y alta cohesión  
    - C) Código duplicado para seguridad  
    - D) Todas las clases en un solo archivo  
+   <!-- - ✅ B) Bajo acoplamiento y alta cohesión   -->
    **Justificación:** Un diseño sólido busca mantener las clases independientes entre sí (bajo acoplamiento) y enfocadas en tareas específicas (alta cohesión).
 
 9. **El principio de Cohesión implica:**  
    - A) Que una clase tenga muchas funciones sin relación  
-   - ✅ B) Que una clase tenga una responsabilidad clara  
+   - B) Que una clase tenga una responsabilidad clara  
    - C) Que una clase dependa de muchas otras  
    - D) Que una clase use variables globales  
+   <!-- - ✅ B) Que una clase tenga una responsabilidad clara   -->
    **Justificación:** La cohesión mide qué tan relacionadas están las tareas de una clase. Alta cohesión implica claridad y propósito único.
 
 10. **El diagrama de clases muestra:**  
     - A) Reglas de negocio  
     - B) Código fuente  
-    - ✅ C) Atributos, métodos y relaciones  
+    - C) Atributos, métodos y relaciones  
     - D) Interacciones temporales  
+    <!-- - ✅ C) Atributos, métodos y relaciones   -->
     **Justificación:** El diagrama de clases representa la estructura estática del sistema: qué atributos y métodos tiene cada clase y cómo se relacionan.
 
 11. **El patrón Strategy permite:**  
-    - ✅ A) Cambiar el algoritmo sin modificar la clase  
+    - A) Cambiar el algoritmo sin modificar la clase  
     - B) Crear árboles de objetos  
     - C) Heredar de varias estrategias  
     - D) Eliminar interfaces  
+    <!-- - ✅ A) Cambiar el algoritmo sin modificar la clase   -->
     **Justificación:** Strategy encapsula algoritmos intercambiables dentro de objetos, facilitando la selección del comportamiento en tiempo de ejecución.
 
 12. **Factory Method es un patrón de tipo:**  
     - A) Estructural  
-    - ✅ B) Creacional  
+    - B) Creacional  
     - C) De comportamiento  
     - D) De flujo  
+    <!-- - ✅ B) Creacional   -->
     **Justificación:** Factory Method es un patrón creacional porque define cómo instanciar objetos sin especificar su clase concreta.
 
 13. **La evaluación del diseño debe verificar:**  
     - A) Velocidad del servidor  
-    - ✅ B) Claridad, flexibilidad y reutilización  
+    - B) Claridad, flexibilidad y reutilización  
     - C) Tiempos de compilación  
     - D) Cantidad de líneas de código  
+    <!-- - ✅ B) Claridad, flexibilidad y reutilización   -->
     **Justificación:** Evaluar un diseño implica revisar si es claro para otros desarrolladores, flexible a cambios y si sus componentes se pueden reutilizar.
 
 14. **Un beneficio de los patrones de diseño es:**  
     - A) Obligar a usar programación funcional  
     - B) Reducir la velocidad del sistema  
-    - ✅ C) Reutilizar soluciones comprobadas  
+    - C) Reutilizar soluciones comprobadas  
     - D) Aumentar la complejidad del diseño  
+    <!-- - ✅ C) Reutilizar soluciones comprobadas   -->
     **Justificación:** Los patrones son soluciones genéricas a problemas comunes. Reutilizarlos ahorra tiempo y reduce errores al aplicar buenas prácticas.
 
 15. **Diseñar primero la interfaz ayuda a:**  
     - A) Olvidar los detalles internos  
     - B) Empezar a codificar más rápido  
-    - ✅ C) Separar lo que hace un módulo de cómo lo hace  
+    - C) Reutilizar soluciones comprobadas  
     - D) Repetir código innecesario  
+    <!-- - ✅ C) Reutilizar soluciones comprobadas   -->
     **Justificación:** Al diseñar primero la interfaz (contrato), se define el comportamiento esperado sin comprometerse con una implementación específica.
 
 
