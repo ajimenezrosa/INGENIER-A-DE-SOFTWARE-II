@@ -10,6 +10,10 @@
 - [UNIDAD 2: ARQUITECTURA DE SOFTWARE Y ESTILOS ARQUITECTÓNICOS MODERNOS](#unidad2)
 - [UNIDAD 3: DISEÑO DE SOFTWARE Y PRINCIPIOS DE BUENAS PRÁCTICAS](#unidad3)
 - [UNIDAD 4: METODOLOGÍAS ÁGILES Y GESTIÓN DE PROYECTOS DE SOFTWARE](#capitulo4)
+
+- [Proyecto: Simulación de un Proyecto Ágil con Scrum](#scrum1)
+
+
 - [ UNIDAD 5: CONTROL DE CALIDAD Y PRUEBAS DE SOFTWARE](#unidad5)
 - [UNIDAD 6: INTEGRACIÓN Y ENTREGA CONTINUA (CI/CD)](#unidad6)
 - [UNIDAD 7: MANTENIMIENTO, EVOLUCIÓN Y REFACCIÓN DE SOFTWARE](#unidad7)
@@ -1142,6 +1146,159 @@ c) Flexibilidad ante el cambio
 d) Rigidez en los procesos  
 <!-- ✅ **Respuesta correcta: c**  
 💡 *La adaptabilidad es clave en entornos cambiantes.* -->
+
+
+# 
+
+---
+
+# 🧩 Proyecto: Simulación de un Proyecto Ágil con Scrum<a name="scrum1"></a>
+
+## 🎯 Objetivo
+
+Aprender cómo funciona **Scrum** (una forma moderna de trabajar en equipo) haciendo un **proyecto sencillo** paso a paso, como si fueran un equipo real de desarrollo de software.
+
+---
+
+## 👥 Paso 1: Formar el equipo
+
+* Elijan un grupo de **2 o 3 personas**.
+* Decidan **qué rol tendrá cada uno**:
+
+  * **Product Owner:** el que tiene la idea del producto y dice qué es lo más importante.
+  * **Scrum Master:** el que organiza y asegura que todos trabajen bien y sin problemas.
+  * **Desarrolladores:** los que diseñan, dibujan o crean el producto.
+
+💡 *Pueden cambiar los roles en el segundo sprint si quieren probar otro papel.*
+
+---
+
+## 💡 Paso 2: Elegir un producto simple
+
+Piensen en una idea pequeña que puedan simular fácilmente.
+Ejemplos:
+
+* Una **app de notas** (para guardar recordatorios).
+* Un **sistema de reservas** (para citas o eventos).
+* Una **calculadora**, **app de tareas**, o **app de recetas**.
+
+📸 *No tienen que programar nada real; pueden hacerlo con dibujos, capturas o prototipos (por ejemplo, en Figma o PowerPoint).*
+
+---
+
+## 📋 Paso 3: Crear el *Product Backlog*
+
+El **Product Backlog** es una lista de ideas (llamadas **Historias de Usuario**) que dicen qué cosas debe tener el producto.
+
+Cada historia se escribe así:
+
+> Como [usuario], quiero [hacer algo], para [obtener un beneficio].
+
+🎯 Deben tener **al menos 10 historias**.
+
+Ejemplo (si hacen una app de notas):
+
+1. Como usuario, quiero **crear notas** para guardar ideas.
+2. Como usuario, quiero **editar mis notas** cuando las quiera cambiar.
+3. Como usuario, quiero **borrar notas** que ya no necesito.
+4. Como usuario, quiero **ver la lista de mis notas.**
+5. Como usuario, quiero **buscar una nota** por palabra clave.
+6. Como usuario, quiero **marcar notas favoritas.**
+7. Como usuario, quiero **poner etiquetas** a mis notas.
+8. Como usuario, quiero **activar modo oscuro.**
+9. Como usuario, quiero **compartir una nota.**
+10. Como usuario, quiero **ver una pantalla de bienvenida.**
+
+---
+
+## 🚀 Paso 4: Simular **dos sprints**
+
+Un **Sprint** es un periodo corto donde se trabaja en una parte del proyecto.
+
+Tendrán **dos sprints:**
+
+---
+
+### 🌀 **Sprint 1**
+
+* Elijan algunas historias del backlog (por ejemplo, las 3 o 4 más importantes).
+* Planeen quién hará qué.
+* Hagan un **prototipo o dibujo** mostrando cómo funcionaría.
+* Al final del Sprint:
+
+  * Muestren su avance (capturas o maquetas).
+  * Expliquen qué aprendieron y qué mejorarían.
+
+📅 Hagan como si trabajaran una semana y cada día respondan:
+
+1. ¿Qué hicimos ayer?
+2. ¿Qué haremos hoy?
+3. ¿Hay algún problema?
+
+(Esos son los **Daily Meetings**. Solo escriban un pequeño resumen).
+
+---
+
+### 🔄 **Sprint 2**
+
+* Usen las mejoras que notaron en el Sprint 1.
+* Agreguen 2 o 3 nuevas funciones.
+* Muestren de nuevo su resultado mejorado.
+* Hagan una **reflexión final**:
+
+  * ¿Qué aprendimos?
+  * ¿Qué haríamos diferente la próxima vez?
+
+---
+
+## 🧾 Paso 5: Hacer la entrega
+
+Al final, deben entregar un **informe en PDF o una presentación** (PowerPoint, Google Slides o Canva) que tenga:
+
+1. **Portada:** nombre del equipo, integrantes y roles.
+2. **Descripción del producto:** una frase explicando su idea.
+3. **Product Backlog:** lista de las 10 historias de usuario.
+4. **Sprint 1:** qué hicieron, capturas o dibujos, y qué aprendieron.
+5. **Sprint 2:** mejoras, capturas o dibujos, y reflexión final.
+6. **Conclusión:** qué aprendieron del trabajo en equipo y de Scrum.
+
+💡 *Si hacen capturas o dibujos, inclúyanlas en la presentación con una pequeña descripción debajo.*
+
+---
+
+## ✅ Recomendaciones para hacerlo fácil
+
+* No se compliquen: **dibujen** si no quieren programar.
+* Pueden usar **PowerPoint, Word, Figma o Canva**.
+* Lo importante es **mostrar el proceso de trabajo en equipo**, no el resultado técnico.
+* **Sean creativos:** inventen nombres divertidos para su app o empresa.
+
+---
+
+## 🎓 Ejemplo resumen final (App de Notas)
+
+**Producto:** App “FastNotes”
+**Equipo:** Ana (PO), Luis (SM), Carla (DEV)
+
+**Sprint 1:**
+
+* Historias: crear nota, editar nota, ver lista.
+* Resultado: prototipo con pantallas.
+* Aprendizaje: planificar antes ayuda mucho.
+
+**Sprint 2:**
+
+* Agregamos búsqueda y favoritos.
+* Mejoramos diseño y mensajes.
+* Aprendizaje: trabajar en equipo fue más fácil con roles claros.
+
+---
+
+
+# 
+
+
+
 
 
 # 
