@@ -754,64 +754,64 @@ El diseño de software es una disciplina que requiere conocimientos técnicos, v
 ## Evaluación del Capítulo 3: 15 Preguntas Tipo Test
 
 1. ¿Cuál es el objetivo principal del diseño de software?  
-   ✅ **a) Traducir los requisitos en soluciones técnicas mantenibles**  
-   💡 *El diseño busca convertir requisitos en una estructura organizada y comprensible para ser implementada eficientemente.*
+   <!-- ✅ **a) Traducir los requisitos en soluciones técnicas mantenibles**  
+   💡 *El diseño busca convertir requisitos en una estructura organizada y comprensible para ser implementada eficientemente.* -->
 
 2. ¿Qué principio busca dividir el sistema en partes pequeñas y manejables?  
-   ✅ **b) Modularidad**  
-   💡 *La modularidad permite crear componentes independientes y reutilizables.*
+   <!-- ✅ **b) Modularidad**  
+   💡 *La modularidad permite crear componentes independientes y reutilizables.* -->
 
 3. Un sistema con alto acoplamiento:  
-   ✅ **c) Tiene componentes fuertemente dependientes entre sí**  
-   💡 *El alto acoplamiento indica que los módulos están estrechamente vinculados, lo que dificulta el mantenimiento.*
+   <!-- ✅ **c) Tiene componentes fuertemente dependientes entre sí**  
+   💡 *El alto acoplamiento indica que los módulos están estrechamente vinculados, lo que dificulta el mantenimiento.* -->
 
 4. La cohesión se refiere a:  
-   ✅ **b) El grado en que los elementos dentro de un módulo están relacionados**  
-   💡 *Una alta cohesión indica que un módulo tiene una única responsabilidad bien definida.*
+   <!-- ✅ **b) El grado en que los elementos dentro de un módulo están relacionados**  
+   💡 *Una alta cohesión indica que un módulo tiene una única responsabilidad bien definida.* -->
 
 5. ¿Qué principio se basa en ocultar detalles de implementación?  
-   ✅ **a) Abstracción**  
-   💡 *La abstracción se enfoca en mostrar solo lo esencial, ocultando lo complejo.*
+   <!-- ✅ **a) Abstracción**  
+   💡 *La abstracción se enfoca en mostrar solo lo esencial, ocultando lo complejo.* -->
 
 6. ¿Qué representa un diagrama de clases en UML?  
-   ✅ **a) Estructura estática del sistema y relaciones entre clases**  
-   💡 *Los diagramas de clase son fundamentales para mostrar la arquitectura orientada a objetos.*
+   <!-- ✅ **a) Estructura estática del sistema y relaciones entre clases**  
+   💡 *Los diagramas de clase son fundamentales para mostrar la arquitectura orientada a objetos.* -->
 
 7. ¿Qué patrón pertenece a los patrones creacionales?  
-   ✅ **a) Singleton**  
-   💡 *Singleton controla la creación de una única instancia de una clase.*
+   <!-- ✅ **a) Singleton**  
+   💡 *Singleton controla la creación de una única instancia de una clase.* -->
 
 8. ¿Cuál de los siguientes es un patrón estructural?  
-   ✅ **b) Adapter**  
-   💡 *Adapter permite que interfaces incompatibles trabajen juntas.*
+   <!-- ✅ **b) Adapter**  
+   💡 *Adapter permite que interfaces incompatibles trabajen juntas.* -->
 
 9. ¿Cuál patrón es de comportamiento?  
-   ✅ **c) Observer**  
-   💡 *Observer define una dependencia uno a muchos entre objetos.*
+   <!-- ✅ **c) Observer**  
+   💡 *Observer define una dependencia uno a muchos entre objetos.* -->
 
 10. ¿Qué principio indica que los módulos deben poder extenderse sin modificarse?  
-    ✅ **b) Principio Abierto/Cerrado**  
-    💡 *Este principio fomenta la extensión del comportamiento sin alterar el código fuente existente.*
+    <!-- ✅ **b) Principio Abierto/Cerrado**  
+    💡 *Este principio fomenta la extensión del comportamiento sin alterar el código fuente existente.* -->
 
 11. ¿Qué herramienta se utiliza para representar la interacción entre objetos a lo largo del tiempo?  
-    ✅ **a) Diagrama de secuencia**  
-    💡 *Los diagramas de secuencia muestran el orden y flujo de mensajes entre objetos.*
+    <!-- ✅ **a) Diagrama de secuencia**  
+    💡 *Los diagramas de secuencia muestran el orden y flujo de mensajes entre objetos.* -->
 
 12. ¿Qué patrón permite encapsular algoritmos en clases independientes?  
-    ✅ **b) Strategy**  
-    💡 *Strategy define una familia de algoritmos y los hace intercambiables.*
+    <!-- ✅ **b) Strategy**  
+    💡 *Strategy define una familia de algoritmos y los hace intercambiables.* -->
 
 13. ¿Qué modelo UML muestra cómo se organizan y agrupan los componentes lógicamente?  
-    ✅ **b) Diagrama de paquetes**  
-    💡 *El diagrama de paquetes agrupa clases o componentes con funcionalidades comunes.*
+    <!-- ✅ **b) Diagrama de paquetes**  
+    💡 *El diagrama de paquetes agrupa clases o componentes con funcionalidades comunes.* -->
 
 14. ¿Cuál es una ventaja de aplicar patrones de diseño?  
-    ✅ **a) Promueven soluciones reutilizables y probadas**  
-    💡 *Los patrones ayudan a resolver problemas comunes de forma eficiente y estructurada.*
+    <!-- ✅ **a) Promueven soluciones reutilizables y probadas**  
+    💡 *Los patrones ayudan a resolver problemas comunes de forma eficiente y estructurada.* -->
 
 15. Diseñar primero la interfaz permite:  
-    ✅ **b) Definir claramente los contratos entre módulos**  
-    💡 *Una interfaz bien definida permite a los desarrolladores trabajar en paralelo y cumplir con especificaciones sin conocer la implementación.*
+    <!-- ✅ **b) Definir claramente los contratos entre módulos**  
+    💡 *Una interfaz bien definida permite a los desarrolladores trabajar en paralelo y cumplir con especificaciones sin conocer la implementación.* -->
 
 
 ## Evaluación del Capítulo 3: Selección Múltiple con Respuestas y Justificación
